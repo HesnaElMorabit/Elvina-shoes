@@ -12,15 +12,38 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background: radial-gradient(#fff,#ffd6d6);
 }
+
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color:#ffffff;
 }
-
+navbar{
+	display: flex;
+	align-items: center;
+	padding:20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;	
+}
+a{
+	text-decoration: none;
+	color: #555
+}
+p{ 
+	color: #555;
+}
 /* Effect on social media buttons */
 
 footer a:hover {
