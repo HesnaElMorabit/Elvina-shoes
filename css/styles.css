@@ -98,7 +98,12 @@ total-price table{
 	width: 100%;
 	max-width: 350px;
 }
-
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
 
 /* Effect on social media buttons */
 
