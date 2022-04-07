@@ -15,17 +15,17 @@
 
     <title>Elvina webshop</title>
   </head>
-  <body>
+<body>
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light">
 <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="images/LOGO ELVINA no bg.png" alt="" width="125"> 
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+    </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
   
@@ -59,16 +59,92 @@
 </div>
         <form class="form-inline my-2 my-lg-0">
 </form>
-      </div>
+  </div>
 <input class="form-check mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 <button class="btn btn-outline-success my-2 my-sm-0 form-check" type="submit">Search</button>
-    </nav>
+  </nav>
 <!-- End of navigation bar -->
-	  <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Elvina Fair Force H</h1>
-    </header>
-	  
-	   <!-- A footer with socials -->
+	
+<!-----------cart items details------------> 
+<div class="small container cart-page">
+	
+	<table>
+	   <tr> 
+		   <th>Product </th>
+		   <th>Quantity </th>
+		   <th>Subtotal </th>
+	   </tr>
+		<tr>
+		    <td>
+			     <div class="cart-info">
+					 <img src="" alt="">
+					 <div>
+					 <p> Elvina FF E</p>
+						 <small> Price: €100.00</small>
+						 <a href="">Remove</a>
+					 </div>
+				</div>
+			
+			</td>
+			<td><input type="number" value="1"></td>
+			<td>€100.00</td>
+		</tr>
+		<tr>
+		    <td>
+			     <div class="cart-info">
+					 <img src="" alt="">
+					 <div>
+					 <p> Elvina FF H</p>
+						 <small> Price: €100.00</small>
+						 <a href="">Remove</a>
+					 </div>
+				</div>
+			
+			</td>
+			<td><input type="number" value="1"></td>
+			<td>€100.00</td>
+		</tr>
+		<tr>
+		    <td>
+			     <div class="cart-info">
+					 <img src="" alt="">
+					 <div>
+					 <p> Elvina FF V</p>
+						 <small> Price: €100.00</small>
+						 <a href="">Remove</a>
+					 </div>
+				</div>
+			
+			</td>
+			<td><input type="number" value="1"></td>
+			<td>€100.00</td>
+		</tr>
+	</table>
+	
+	<div class="total-price">
+	      <table> 
+		      <tr> 
+			      <td> Subtotal</td>
+				  <td> €300.00</td>
+			  </tr>
+			  <tr> 
+			      <td> Shipping</td>
+				  <td> €2.99</td>
+			  </tr>
+			  <tr> 
+			      <td> Total</td>
+				  <td> €302.99</td>
+			  </tr>
+		</table>
+	</div>
+	
+</div>
+	
+	
+	
+	
+	
+<!-- A footer with socials -->
     <footer class="shadow-lg mt-5 py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
