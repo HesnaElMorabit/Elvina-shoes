@@ -80,6 +80,13 @@ td  input{
 	height: 30px;
 	padding: 5px;
 }
+
+
+
+.myprice{
+	width: 400px;
+	
+}
 td a{
 	color: #ff523b;
 	font-size: 12px;
@@ -89,20 +96,26 @@ td img{
 	height:80px;
 	margin-right: 10px;
 }
-total-price{
+.goright{
 	display: flex;
 	justify-content: flex-end;
 }
-total-price table{
+.total-price{
 	border-top: 3px solid#ff523b;
 	width: 100%;
 	max-width: 400px;
-}
+} 
 td:last-child{
 	text-align: right;
 }
 th:last-child{
 	text-align: right;
+}
+body{
+	background-image: url("");
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
 }
 
 
