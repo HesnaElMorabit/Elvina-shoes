@@ -104,8 +104,6 @@ td img{
 	border-top: 3px solid#ff523b;
 	width: 100%;
 	max-width: 400px;
-	
-
 } 
 .myprice{
 	width: 200px;
@@ -163,14 +161,25 @@ body{
 	cursor: pointer;
 }
 
-
-/*--- media query for less than 600 screen size---*/
-
-@media only screen and (max-width:600px){
-	cart-info{
-		display: none;
-	}
+.form button:hover,.form button:active{
+	background: #43a047;
 }
+
+.form .message{
+	margin: 15px 0 0;
+	color: aliceblue;
+	font-size: 12px;
+}
+
+.form .message{
+	color: #4caf50;
+	text-decoration: none;
+}
+
+.form .register-form{
+	display:none;
+}
+
 
 /* Effect on social media buttons */
 
