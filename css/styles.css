@@ -96,7 +96,7 @@ total-price{
 total-price table{
 	border-top: 3px solid #ff523b;
 	width: 100%;
-	max-width: 350px;
+	max-width: 400px;
 }
 td:last-child{
 	text-align: right;
