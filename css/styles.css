@@ -84,7 +84,7 @@ td  input{
 
 
 .myprice{
-	width: 400px;
+	max-width: 400px;
 	
 }
 td a{
@@ -104,7 +104,14 @@ td img{
 	border-top: 3px solid#ff523b;
 	width: 100%;
 	max-width: 400px;
+	
+
 } 
+.myprice{
+	width: 200px;
+	padding-right: 0px;
+}
+
 td:last-child{
 	text-align: right;
 }
