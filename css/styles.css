@@ -5,22 +5,19 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: 'Hurricane', cursive;
-    font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 	background-color: #fffcf8;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	font-family: 'Hurricane', cursive;
-    font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 	background-color: #d9cfcc;
 }
 
 h1{
-	font-family: 'Hurricane', cursive;
-    font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 	text-align: center;
 }
 
