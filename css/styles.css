@@ -1,12 +1,13 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Rajdhani', sans-serif;
 	background-color: #fffcf8;
+	font-size: 20px;
 }
 
 /* Changing the background colour for the header */
@@ -29,7 +30,7 @@ h1{
 	display: flex;
 	align-items: center;
 	padding: 20px;
-	background-color:#ffffff;
+	background-color:#fff0e0;
 }
 navbar{
 	display: flex;
@@ -46,10 +47,10 @@ nav ul li{
 }
 a{
 	text-decoration: none;
-	color: #555
+	color: #c8c0bd
 }
 p{ 
-	color: #555;
+	color: #c8c0bd;
 }
 
 /*---Shopping cart-----------*/
@@ -69,7 +70,7 @@ th{
 	text-align: left;
 	padding: 5px;
 	color: #fff;
-	background: #ff523b;
+	background: #ccf4da;
 	font-weight: normal;
 }
 td{
@@ -88,7 +89,7 @@ td  input{
 	
 }
 td a{
-	color: #ff523b;
+	color: #ccf4da;
 	font-size: 12px;
 }
 td img{
@@ -101,7 +102,7 @@ td img{
 	justify-content: flex-end;
 }
 .total-price{
-	border-top: 3px solid#ff523b;
+	border-top: 3px solid#ebefff;
 	width: 100%;
 	max-width: 400px;
 } 
