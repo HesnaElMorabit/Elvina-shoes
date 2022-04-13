@@ -312,14 +312,6 @@ body{
 	transition: 0,5s;
 	color:#c8c0bd;
 }
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span{
-	color:#e91e63;
-	font-size: 12px;
-	transform: translateY(20px);
-}
 .contactForm .inputBox input[type="submit"]{
 	width:100px;
 	background: #ebefff;
