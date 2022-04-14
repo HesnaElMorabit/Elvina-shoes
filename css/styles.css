@@ -13,12 +13,12 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Rajdhani', sans-serif;
 	background-color: #d9cfcc;
 }
 
 h1{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Rajdhani', sans-serif;
 	text-align: center;
 }
 
@@ -51,7 +51,8 @@ a{
 }
 p{ 
 	color: #000;
-	font-size: 14px
+	font-size: 14px;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 /*---Shopping cart-----------*/
