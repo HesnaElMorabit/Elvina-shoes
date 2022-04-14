@@ -153,7 +153,7 @@ body{
 	font-family: "roboto", sans-serif;
 	text-transform: uppercase;
 	outline: 0;
-	background: #AC1214;
+	background: #EBEFFF;
 	width: 100%;
 	border: 0;
 	padding: 15px;
@@ -163,7 +163,7 @@ body{
 }
 
 .form button:hover,.form button:active{
-	background: #43a047;
+	background: #CCF4DA;
 }
 
 .form .message{
@@ -180,6 +180,7 @@ body{
 .form .register-form{
 	display:none;
 }
+
 
 
 
